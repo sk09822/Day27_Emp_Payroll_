@@ -12,7 +12,7 @@ public class FileOperations {
 
         //check file exists or not
         Path filePath = Paths.get(myFolder+"\\sample.txt");
-        Path folderPath = Paths.get(myFolder + "\\Vismaya");
+        Path folderPath = Paths.get(myFolder + "\\Sandip");
 
         //delete file and check file not exists
         if(Files.exists(filePath)) {
